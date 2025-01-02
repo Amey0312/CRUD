@@ -1,0 +1,110 @@
+{
+	"id": "1c9487ab-0165-4bf1-9fba-59ba5cc48c0c",
+	"name": "REST API basics: CRUD, test & variable",
+	"timestamp": "2025-01-02T10:04:51.420Z",
+	"collection_id": "32895248-04b38cbc-73f1-417b-89ab-ff3688ae1b3f",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-01-02T10:04:50.620Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "62c8401f-abfe-415c-a9cd-ce980270909e",
+			"name": "http://localhost:3000/api/content",
+			"url": "http://localhost:3000/api/content",
+			"time": 27,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				27
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9dff1a2b-fa48-4501-9557-811cccbc272a",
+			"name": "http://localhost:3000/api/content",
+			"url": "http://localhost:3000/api/content",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				9
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6cfee904-cc25-49f4-845a-f90f78639306",
+			"name": "http://localhost:3000/api/content/3",
+			"url": "http://localhost:3000/api/content/3",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				7
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "93ce792f-9faf-4093-a364-4de070a83add",
+			"name": "http://localhost:3000/api/content/2",
+			"url": "http://localhost:3000/api/content/2",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				10
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 53,
+	"collection": {
+		"requests": [
+			{
+				"id": "62c8401f-abfe-415c-a9cd-ce980270909e",
+				"method": "POST"
+			},
+			{
+				"id": "9dff1a2b-fa48-4501-9557-811cccbc272a",
+				"method": "GET"
+			},
+			{
+				"id": "6cfee904-cc25-49f4-845a-f90f78639306",
+				"method": "DELETE"
+			},
+			{
+				"id": "93ce792f-9faf-4093-a364-4de070a83add",
+				"method": "PUT"
+			}
+		]
+	}
+}
